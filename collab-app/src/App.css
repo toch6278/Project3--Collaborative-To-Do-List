@@ -41,3 +41,82 @@ h1
 {
   padding: 2rem; 
 }
+body
+{
+  background-color: #f3e9dc; 
+}
+.tasks
+{
+  margin: 4rem; 
+  padding: 4rem;
+  background-color: #494643;
+  border-radius: 2rem;
+  align-items: center;
+}
+.tasks h2
+{
+  color: white; 
+  text-align: center;
+}
+.input-flex
+{
+  display: flex; 
+}
+.inputBox
+{
+  flex-grow: 2; 
+  background-color: white; 
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 10px;
+}
+img
+{
+  object-fit: contain;
+  width: 100%; 
+  height: 100%; 
+}
+.row1
+{
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 1rem 0rem;
+}
+.empty
+{
+  flex-grow: 2;
+}
+.addTask
+{
+  flex-grow: 0.5;  
+  background-color: #f3e9dc;
+  border-radius: 2rem; 
+  justify-content: center;
+}
+.addTask img
+{
+  flex-grow: 1;
+  align-items: center;
+  padding: 1rem;
+  height:20px; 
+  width:20px;
+}
+
+.addTask p
+{
+  flex-grow: 1;
+  /* text-align: justify; */
+  text-align: right;
+  padding: 0.5rem 1rem 0.5rem 0rem;
+  /* padding-right: 1rem; */
+}
+
+.createTask
+{
+  background-color: rgba(70, 135, 78, 0.8);
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 10px;
+  height: 40px; 
+  width: 40px; 
+}
