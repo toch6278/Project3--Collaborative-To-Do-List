@@ -176,7 +176,27 @@ input.checked {
   text-decoration: line-through;
 }
 
+.input-field
+{
+  display: flex; 
+}
 .input
 {
+  flex-grow: 2;
   background-color: white;
+  border-radius: 2rem;
+  padding: 10px; 
+  margin: 10px;
+  text-align: center; 
+  height: 20px;
+  color: grey;
+  border: none;
+}
+.create
+{
+  border-radius: 15px; 
+  margin: 10px;
+  background-color: #007a73;
+  color: white; 
+  border: none;
 }

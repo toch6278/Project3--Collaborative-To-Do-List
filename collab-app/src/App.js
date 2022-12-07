@@ -21,6 +21,10 @@ function App() {
               {/* <InputTask/> */}
             </div>
           </button>
+          <div className ="input-field">
+            <input className = "input" onfocus = "this.value=''" value = "+ New Task"/>
+            <button className = "create"> Submit </button>
+          </div>
           <h2> Tasks </h2>
           <TasksList/>
           <h3> Due Date </h3>

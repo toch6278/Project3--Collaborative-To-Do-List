@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 
 export default class InputTask extends React.Component
@@ -7,6 +7,8 @@ export default class InputTask extends React.Component
     {
         super(props); 
     }
+
+    // const[data,setData] = useState(null);
 
     getData(val)
     {
