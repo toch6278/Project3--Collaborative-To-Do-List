@@ -81,6 +81,9 @@ img
   display: flex; 
   flex-wrap: wrap;
   padding: 1rem 0rem;
+  border-radius: 2rem;
+  background-color: #f3e9dc;
+  border-color: #494643;
 }
 .empty
 {
@@ -119,4 +122,81 @@ img
   padding: 10px;
   height: 40px; 
   width: 40px; 
+}
+
+
+.checkbox, .tasks
+{
+  color: white; 
+  /* width: 50px;  */
+}
+
+.checkbox-wrapper input[type = "checkbox"] {
+  -webkit-appearance: none; 
+  appearance: none; 
+  width: 1.6em; 
+  height: 1.6em; 
+  border-radius: 0.15em; 
+  margin-right: 0.5em; 
+  border: 0.15em solid #007a73; 
+  outline: none; 
+  cursor: pointer;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled {
+  border-color: #c0c0c0;
+  background-color: #c0c0c0;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled + span {
+  color: #c0c0c0;
+}
+
+.checkbox-wrapper input[type="checkbox"]:focus {
+  box-shadow: 0 0 20px #007a7e;
+}
+
+input.checked::before {
+  content: "\2714"; 
+  font-size: 1.5em; 
+  color: #fff; 
+  position: absolute; 
+  right: 1px; 
+  top: -5px; 
+}
+
+input.checked {
+  background-color: #007a7e; 
+  position: relative; 
+}
+
+
+/* new checkbox mechanism */
+.checked-item {
+  text-decoration: line-through;
+}
+
+.input-field
+{
+  display: flex; 
+}
+.input
+{
+  flex-grow: 2;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 10px; 
+  margin: 10px;
+  text-align: center; 
+  height: 20px;
+  color: grey;
+  border: none;
+}
+.create
+{
+  border-radius: 15px; 
+  margin: 10px;
+  background-color: #007a73;
+  color: white; 
+  border: none;
 }
